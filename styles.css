@@ -3,39 +3,39 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-div{
-    box-sizing: border-box;
-}
+
 header{
     background: white;
     padding: 10px;
 }
+
 header h1{
     margin: 0;
 }
-div.post{
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+.post{
     background: white;
     margin-top: 50px;
 }
-div.post img{
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+} 
+
+img{
     width: 100%;
 }
-div.post .post-header div:first-child{
-    display: inline-block;
-    width: 80%;
-}
-div.post .post-header div:last-child{
-    display: inline-block;
-    width: 20%;
-    text-align: right;
-    padding: 10px;
-    color: grey;
-}
-div.post h2, div.post p{
+
+h2, p{
     padding: 10px;
     margin: 0;
 }
-div.container{
-    width: 600px;
-    margin: auto;
-} 
+
